@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Technology Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>J-Technology Ltd</h1><br><br><br><br><br>
+            <nav>
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+              <img src="mu.jpeg" alt="Norway" style="width:10%" class="w3-hover-opacity">
+              <div class="w3-container w3-white">
+        <div class="container">
+            <h2>Welcome to J-Technology Ltd</h2>
+            <p>We provide innovative solutions for your technology needs.</p>
+        </div>
+    </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+                    <p><b>jules</b></p>
+                    <p>Hello! My name is jules, and I'm a Student at university of lay adventiste kigali [UNILAK]. I'm  studying Software Engineering and have software development experience. I believe that my work ethic, attention to detail, and willingness to learn new skills complement each other exceptionally well.<br> addition i have driving licence category B</p>
+                  </div>
+                  </div>
+                  </div>
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>We create responsive and dynamic websites tailored to your needs.</p>
+            </div>
+            <div class="service-item">
+                <h3>App Development</h3>
+                <p>From concept to deployment, we build robust mobile and web applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>Contact us: info@j-technology.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+        // Animate hero section
+document.addEventListener('DOMContentLoaded', function() {
+    const heroText = document.querySelector('.hero h2');
+    const heroSubtext = document.querySelector('.hero p');
+    heroText.style.opacity = '0';
+    heroSubtext.style.opacity = '0';
+    
+    setTimeout(function() {
+        heroText.style.transition = 'opacity 1s ease-in-out';
+        heroSubtext.style.transition = 'opacity 1s ease-in-out';
+        heroText.style.opacity = '5';
+        heroSubtext.style.opacity = '5';
+    }, 500);
+});
+
+    </script>
+</body>
+</html>
